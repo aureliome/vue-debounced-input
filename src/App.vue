@@ -7,17 +7,20 @@
     </div>
     <div>
       <h2>As Directive</h2>
+      <AsDirective />
     </div>
   </div>
 </template>
 
 <script>
 import AsComponent from "./parents/AsComponent";
+import AsDirective from "./parents/AsDirective";
 
 export default {
   name: "App",
   components: {
     AsComponent,
+    AsDirective,
   },
 };
 </script>
