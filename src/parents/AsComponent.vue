@@ -15,29 +15,13 @@
 </template>
 
 <script>
+import ParentMixin from "./ParentMixin";
 import DebouncedInputText from "../components/DebouncedInputText";
 
 export default {
-  data() {
-    return {
-      text: "",
-      textToPrint: "",
-      focused: false,
-    };
-  },
+  mixins: [ParentMixin],
   components: {
     DebouncedInputText,
-  },
-  methods: {
-    printText(readyText) {
-      this.textToPrint = readyText;
-    },
-    focusText() {
-      this.focused = true;
-    },
-    blurText() {
-      this.focused = false;
-    },
   },
 };
 </script>
