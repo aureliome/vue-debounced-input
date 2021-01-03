@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import AsComponent from "./AsComponent";
+import AsComponent from "./parents/AsComponent";
 
 export default {
   name: "App",

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import DebouncedInputText from "./components/DebouncedInputText";
+import DebouncedInputText from "../components/DebouncedInputText";
 
 export default {
   data() {
